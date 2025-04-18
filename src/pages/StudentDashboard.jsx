@@ -52,10 +52,14 @@ export default function StudentDashboard() {
           </div>
 
           <div className="col-md-4">
-            <div className="p-4 text-center shadow rounded" style={{ backgroundColor: "#352f44", color: "white", cursor: "pointer" }} onClick={() => navigate("/student-dashboard/messages")}>
-              <h5>Messages</h5>
+            <div
+              className="p-4 text-center shadow rounded"
+              style={{ backgroundColor: "#352f44", color: "white", cursor: "pointer" }}
+              onClick={() => navigate("/student-dashboard/view-notices")}
+            >
+              <h5>View Notices</h5>
             </div>
-          </div>
+          </div>          
         </div>
       </div>
     </div>

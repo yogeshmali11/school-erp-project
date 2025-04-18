@@ -32,7 +32,17 @@ export default function AdminDashboard() {
             </div>
           </div>
 
-          
+          {/* Notices/Announcements */}
+          <div className="col-md-4">
+            <div
+              className="p-4 text-center shadow rounded"
+              style={{ backgroundColor: "#352f44", color: "white", cursor: "pointer" }}
+              onClick={() => navigate("/admin-dashboard/add-notice")}
+            >
+              <h5>Notices</h5>
+            </div>
+          </div>
+
         </div>
       </div>
     </div>

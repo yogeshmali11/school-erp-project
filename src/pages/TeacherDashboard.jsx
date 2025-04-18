@@ -88,17 +88,16 @@ export default function TeacherDashboard() {
             </div>
           </div>
 
-          {/* Box 4 */}
           <div className="col-md-4">
             <div
               className="p-4 text-center shadow rounded"
               style={{ backgroundColor: "#352f44", color: "white", cursor: "pointer" }}
-              // Navigate to messages inside teacher-dashboard
-              onClick={() => navigate("/teacher-dashboard/messages")}
+              onClick={() => navigate("/teacher-dashboard/view-notices")}
             >
-              <h5>Messages</h5>
+              <h5>View Notices</h5>
             </div>
           </div>
+
         </div>
       </div>
     </div>
