@@ -43,6 +43,16 @@ export default function AdminDashboard() {
             </div>
           </div>
 
+          <div className="col-md-4">
+            <div
+              className="p-4 text-center shadow rounded"
+              style={{ backgroundColor: "#352f44", color: "white", cursor: "pointer" }}
+              onClick={() => navigate("/admin-dashboard/view-attendance")}
+            >
+              <h5>View Attendance</h5>
+            </div>
+          </div>
+
         </div>
       </div>
     </div>
