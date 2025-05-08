@@ -16,6 +16,8 @@ import TeacherNotices from './pages/teacher/TeacherNotices';
 import StudentNotices from './pages/student/StudentNotices';
 import MarkAttendance from './pages/MarkAttendance';
 import ViewAttendance from './pages/admin/ViewAttendance';
+import UploadNotes from './pages/teacher/UploadNotes';
+import ViewNotes from './pages/student/ViewNotes';
 
 function App() { 
   return (
@@ -34,12 +36,14 @@ function App() {
         <Route path="/teacher-dashboard/view-submissions" element={<ViewSubmissions />} />
         <Route path="/teacher-dashboard/view-notices" element={<TeacherNotices />} />
         <Route path="/teacher-dashboard/mark-attendance" element={<MarkAttendance />} />
+        <Route path="/teacher-dashboard/upload-notes" element={<UploadNotes />} />
 
         <Route path="/student-dashboard" element={<StudentDashboard />} />
         <Route path="/student-dashboard/view-all-assignments" element={<ViewAllAssignments />} />
         <Route path="/student-dashboard/assignment-submission" element={<AssignmentSubmission />} />
         <Route path="/student-dashboard/view-notices" element={<StudentNotices />} />
         <Route path="/student-dashboard/mark-attendance" element={<MarkAttendance />} />
+        <Route path="/student-dashboard/notes" element={<ViewNotes />} />
       </Routes>
     </BrowserRouter>
   );

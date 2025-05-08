@@ -65,6 +65,16 @@ export default function StudentDashboard() {
             </div>
           </div>
 
+          <div className="col-md-4">
+            <div
+              className="p-4 text-center shadow rounded"
+              style={{ backgroundColor: "#352f44", color: "white", cursor: "pointer" }}
+              onClick={() => navigate("/student-dashboard/notes")}
+            >
+              <h5>View Notes</h5>
+            </div>
+          </div>
+
         </div>
       </div>
     </div>
