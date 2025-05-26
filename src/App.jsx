@@ -18,6 +18,8 @@ import MarkAttendance from './pages/MarkAttendance';
 import ViewAttendance from './pages/admin/ViewAttendance';
 import UploadNotes from './pages/teacher/UploadNotes';
 import ViewNotes from './pages/student/ViewNotes';
+import ViewAssignmentsAndSubmissions from './pages/admin/ViewAssignmentsAndSubmissions';
+import AIChat from './pages/AIChat';
 
 function App() { 
   return (
@@ -29,6 +31,7 @@ function App() {
         <Route path="/admin-dashboard/manage-users" element={<AddUserForm />} />
         <Route path="/admin-dashboard/add-notice" element={<AddNotice />} />
         <Route path="/admin-dashboard/view-attendance" element={<ViewAttendance />} />
+        <Route path="/admin-dashboard/view-assignments-submissions" element={<ViewAssignmentsAndSubmissions />} />
 
         <Route path="/teacher-dashboard" element={<TeacherDashboard />} />
         <Route path="/teacher-dashboard/upload-assignment" element={<UploadAssignment />} />

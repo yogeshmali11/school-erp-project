@@ -25,7 +25,7 @@ export default function AdminDashboard() {
           <div className="col-md-4">
             <div
               className="p-4 text-center shadow rounded"
-              style={{ backgroundColor: "#352f44", color: "white", cursor: "pointer" }}
+              style={{ backgroundColor: "#352f44", color: "white", cursor: "pointer", height: "250px",width: "250px", display: "flex", justifyContent: "center", alignItems: "center", margin: "auto" }}
               onClick={() => navigate("/admin-dashboard/manage-users")}
             >
               <h5>Manage Users</h5>
@@ -36,7 +36,7 @@ export default function AdminDashboard() {
           <div className="col-md-4">
             <div
               className="p-4 text-center shadow rounded"
-              style={{ backgroundColor: "#352f44", color: "white", cursor: "pointer" }}
+              style={{ backgroundColor: "#352f44", color: "white", cursor: "pointer", height: "250px",width: "250px", display: "flex", justifyContent: "center", alignItems: "center", margin: "auto" }}
               onClick={() => navigate("/admin-dashboard/add-notice")}
             >
               <h5>Notices</h5>
@@ -46,10 +46,20 @@ export default function AdminDashboard() {
           <div className="col-md-4">
             <div
               className="p-4 text-center shadow rounded"
-              style={{ backgroundColor: "#352f44", color: "white", cursor: "pointer" }}
+              style={{ backgroundColor: "#352f44", color: "white", cursor: "pointer", height: "250px",width: "250px", display: "flex", justifyContent: "center", alignItems: "center", margin: "auto" }}
               onClick={() => navigate("/admin-dashboard/view-attendance")}
             >
               <h5>View Attendance</h5>
+            </div>
+          </div>
+
+          <div className="col-md-4">
+            <div
+              className="p-4 text-center shadow rounded"
+              style={{ backgroundColor: "#352f44", color: "white", cursor: "pointer", height: "250px",width: "250px", display: "flex", justifyContent: "center", alignItems: "center", margin: "auto" }}
+              onClick={() => navigate("/admin-dashboard/view-assignments-submissions")}
+            >
+              <h5>View Assignments <br /> & <br /> Submissions </h5>
             </div>
           </div>
 
