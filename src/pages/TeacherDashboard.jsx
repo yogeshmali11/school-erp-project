@@ -300,6 +300,27 @@ export default function TeacherDashboard() {
             </div>
           </div>
 
+          <div className="col-md-4">
+            <div
+              className="p-4 text-center shadow rounded"
+              style={{
+                backgroundColor: "#352f44",
+                color: "white",
+                cursor: "pointer",
+                height: "250px",
+                width: "250px",
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                margin: "auto",
+                textAlign: "center",
+              }}
+              onClick={() => navigate("/teacher-dashboard/ask-ai")}
+            >
+              <h5>ASK AI</h5>
+            </div>
+          </div>
+
         </div>
       </div>
     </div>

@@ -19,7 +19,7 @@ import ViewAttendance from './pages/admin/ViewAttendance';
 import UploadNotes from './pages/teacher/UploadNotes';
 import ViewNotes from './pages/student/ViewNotes';
 import ViewAssignmentsAndSubmissions from './pages/admin/ViewAssignmentsAndSubmissions';
-import AIChat from './pages/AIChat';
+import AskAI from './pages/AskAI';
 
 function App() { 
   return (
@@ -40,6 +40,7 @@ function App() {
         <Route path="/teacher-dashboard/view-notices" element={<TeacherNotices />} />
         <Route path="/teacher-dashboard/mark-attendance" element={<MarkAttendance />} />
         <Route path="/teacher-dashboard/upload-notes" element={<UploadNotes />} />
+        <Route path="/teacher-dashboard/ask-ai" element={<AskAI />} />
 
         <Route path="/student-dashboard" element={<StudentDashboard />} />
         <Route path="/student-dashboard/view-all-assignments" element={<ViewAllAssignments />} />
@@ -47,6 +48,7 @@ function App() {
         <Route path="/student-dashboard/view-notices" element={<StudentNotices />} />
         <Route path="/student-dashboard/mark-attendance" element={<MarkAttendance />} />
         <Route path="/student-dashboard/notes" element={<ViewNotes />} />
+        <Route path="/student-dashboard/ask-ai" element={<AskAI />} />
       </Routes>
     </BrowserRouter>
   );
